@@ -1,0 +1,232 @@
+html, body {
+  font-family: "PT Sans", sans-serif;
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+}
+
+::selection {
+  color: #fff;
+  background-color: #202846;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 10px 100px 10px 100px;
+  box-sizing: border-box;
+  background-color: #202846;
+}
+
+.site-logo {
+  height: 100%;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.style-link {
+  font-weight: 600;
+  font-size: 23px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.style-link:hover {
+  color: #b1b1b1;
+}
+
+.separator {
+  margin-left: 23px;
+  margin-right: 23px;
+  color: #fff;
+}
+
+.globe-icon {
+  height: calc(100% - 10px);
+  margin-right: 7px;
+}
+
+.drop-down-list {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+  background-color: #202846;
+}
+
+.style-item-for-select {
+  font-weight: 600;
+  font-size: 23px;
+  color: #fff;
+}
+
+/* Container-book-house */
+
+.container-book-house {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 186px;
+  padding-right: 186px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 140px;
+  background-color: #c6c6dc;
+}
+
+.book-house-title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  color: #202846;
+}
+
+/* Wrapper */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 56px 136px;
+  box-sizing: border-box;
+  background-color: #dcdcdc;
+}
+
+.opening-list {
+  cursor: pointer;
+  width: 100%;
+  height: 63px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 56px;
+  border: none;
+  outline: none;
+  appearance: none;
+  background-color: #e8e8e8;
+}
+
+.choose-city {
+  width: 100%;
+  height: 53px;
+  font-style: italic;
+  background-color: rgba(163, 165, 169, 0.97);;
+}
+
+/* Wrapper-for-photo-1 */
+
+.wrapper-for-photo-1, .wrapper-for-photo-2, .wrapper-for-photo-3, .wrapper-for-photo-4 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  padding: 28px 63px;
+  box-sizing: border-box;
+  background-color: #bdbdc6;
+}
+
+.wrapper-for-photo-1, .wrapper-for-photo-2, .wrapper-for-photo-3 {
+  margin-bottom: 36px;
+}
+
+.house-1, .house-2, .house-3, .house-4 {
+  width: 40%;
+  height: 244px;
+  margin-right: 63px;
+}
+
+.container-for-information-1, .container-for-information-2, 
+.container-for-information-3, .container-for-information-4 {
+  display: flex;
+  flex-direction: column;
+  width: calc(60% - 73px);
+  height: 244px;
+}
+
+.house-1-title, .house-2-title, .house-3-title, .house-4-title {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0;
+  color: #353c57;
+}
+
+.line-under-house-1-title, .line-under-house-2-title, 
+.line-under-house-3-title, .line-under-house-4-title {
+  border: 0;
+  width: 100%;
+  height: 2px;
+  margin: 0;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.container-for-descr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 194px;
+  padding: 21px 23px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #d7d7dd;
+}
+
+.descr-place-1, .descr-place-2, .descr-place-3, .descr-place-4 {
+  font-weight: 400;
+  font-size: 19px;
+  margin: 0;
+  color: #202846;
+}
+
+.button-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 21px;
+  color: #fff;
+  transition: 1s;
+  background-color: #202846;
+}
+
+.button-detail:hover {
+  background-color: #565a7c;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background-color: #202846;
+}
+
+.footer-rights-of-defense {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+  color: #eeecf1;
+}

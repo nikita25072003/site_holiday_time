@@ -1,0 +1,247 @@
+html, body {
+  font-family: "PT Sans", sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+::selection {
+  color: #fff;
+  background-color: #202846;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 10px 100px 10px 100px;
+  box-sizing: border-box;
+  background-color: #202846;
+}
+
+.site-logo {
+  height: 100%;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.style-link {
+  font-weight: 600;
+  font-size: 23px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.style-link:hover {
+  color: #b1b1b1;
+}
+
+.separator {
+  margin-left: 23px;
+  margin-right: 23px;
+  color: #fff;
+}
+
+.globe-icon {
+  height: calc(100% - 10px);
+  margin-right: 7px;
+}
+
+.drop-down-list {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+  background-color: #202846;
+}
+
+.style-item-for-select {
+  font-weight: 600;
+  font-size: 23px;
+  color: #fff;
+}
+
+/* Container-your-profile */
+
+.container-your-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 186px;
+  padding-right: 186px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 140px;
+  background-color: #c6c6dc;
+}
+
+.your-profile-title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  color: #202846;
+  margin: 0;
+}
+
+/* Wrapper */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 41px 260px;
+  box-sizing: border-box;
+  background-color: #dcdcdc;
+}
+
+.appliccation-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 498px;
+  margin-bottom: 40px;
+  background-color: #bdbdc6;
+}
+
+/* Container-left-appliccation-form */
+
+.container-left-appliccation-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.icon-profile {
+  width: 176px;
+  height: 164px;
+  margin-bottom: 38px;
+}
+
+.button-change-avatar, .button-settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  transition: 1s;
+}
+
+.button-change-avatar {
+  margin-bottom: 22px;
+  background-color: #69749b;
+}
+
+.button-settings {
+  background-color: #484a54;
+}
+
+.button-change-avatar:hover {
+  background-color: #7a87b6;
+}
+
+.button-settings:hover {
+  background-color: rgb(124, 127, 144);
+}
+
+.change-avatar-title, .settings-title {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  color: #fff;
+}
+
+/* Container-right-appliccation-form */
+
+.container-right-appliccation-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+
+.appliccation-form-list {
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 61px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.appliccation-form-item {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 28px;
+  color: #353c57;
+  margin-bottom: 15px;
+}
+
+.appliccation-form-item-regular {
+  font-weight: 400;
+}
+
+.line-under-appliccation-form-item {
+  border: 0;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.button-exit-under-appliccation-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 212px;
+  height: 60px;
+  border-radius: 30px;
+  transition: 1s;
+  background-color: #202846;
+}
+
+.button-exit-under-appliccation-form:hover {
+  background-color: #565a7c;
+}
+
+.exit-title {
+  font-weight: 400;
+  font-size: 27px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background-color: #202846;
+}
+
+.footer-rights-of-defense {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+  color: #eeecf1;
+}
